@@ -1,11 +1,40 @@
 .sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
-  }
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.my-gradient {
+  background: linear-gradient(to right, #fca5a5, #bef264);
+}
+
+.main-gradient {
+  background: linear-gradient(to right, #8eaade, #da6e6e);
+}
+
+.my-gradient,
+.title-gradient,
+.btn-gradient:hover,
+.hover-gradient-text:hover {
+  background: linear-gradient(to right, #8eaade, #da6e6e);
+}
+
+.title-gradient {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hover-gradient-text:hover {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.custom-rounded {
+  border-radius: 10px; 
+}
